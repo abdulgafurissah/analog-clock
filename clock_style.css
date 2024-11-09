@@ -1,0 +1,112 @@
+.hand {
+    width: 50%;
+    height: 6px;
+    background-color: #185519;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 50%;
+    transform: rotate(90deg); /* Default rotation */
+}
+
+.hour-hand {
+    height: 8px;
+    background-color: #3a3a3a;
+    width: 35%;
+}
+
+.minute-hand {
+    height: 6px;
+    background-color: #185519;
+    width: 45%;
+}
+
+.second-hand {
+    height: 4px;
+    background-color: red;
+    width: 50%;
+}
+
+.clock-dial{
+    width: 500px;
+    height: 500px;
+    border: 20px solid #FFBF61;
+    border-radius: 50%;
+    margin: 0% auto;
+    position: relative;
+    margin-top: 60px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: #185519;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+.time{
+    font-size: 30px;
+    font-weight: bold;
+    color: #185519;
+    position: absolute;
+}
+.time-1{
+    top: 40px;
+    right: 140px;
+}
+
+.time-2{
+    top: 125px;
+    right: 45px;
+}
+.time-3{
+    top: 235px ;
+    right: 10px ;
+}
+.time-4{
+    top:345px ;
+    right:45px ;
+}
+.time-5{
+    top:439px ;
+    right: 130px ;
+}
+.time-6{
+    bottom: 10px;
+    left:  240px;
+}
+.time-7{
+    top: 430px;
+    left: 130px ;
+}
+.time-8{
+    top: 345px;
+    left: 45px;
+}
+.time-9{
+    top:235px ;
+    left:10px ;
+}
+.time-10{
+    top: 125px ;
+    left: 45px ;
+}
+.time-11{
+    top: 40px;
+    left: 130px;
+}
+.time-12{
+    top:10px ;
+    left: 235px ;
+}
+
+.fidelus{
+    font: 20px bold;
+    font-style: oblique;
+    left: 40.50%;
+    text-align: center;
+}
